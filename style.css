@@ -1,0 +1,26 @@
+:root {
+  --unit: 50px; /* define the unit with a unit value (e.g., px) */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+.line, .big-corner {
+  border: 1px solid black;
+}
+
+.line {
+  width: calc(4 * var(--unit)); /* 1 unit */
+  height: calc(1 * var(--unit)); /* 4 units */
+}
+
+.big-corner {
+  width: calc(4 * var(--unit)); /* 4 units */
+  height: calc(4 * var(--unit)); /* 4 units */
+}
